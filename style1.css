@@ -1,0 +1,26 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.flex-container{
+    display: flex;
+    border: 2px solid;
+    gap: 10px;
+}
+.flex-child{
+    padding: 10px;
+}
+.child1{
+    background-color: aqua;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+.child2{
+    background-color: plum;
+    flex-grow: 2;
+}
+.child3{
+    background-color: violet;
+    flex-grow: 0;
+}
